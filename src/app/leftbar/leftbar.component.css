@@ -1,0 +1,31 @@
+.lt1 {
+  background-color: #004B68;
+  list-style-type: none;
+}
+
+.lt2 {
+  background-color: #004B68;
+  list-style-type: none;
+  position: relative;
+  top: 7px;
+}
+
+.lt1 a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.lt2 a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bigDiv {
+  margin-top: 25px;
+}
+
+a {
+  color: #71BF44;
+}

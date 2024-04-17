@@ -1,0 +1,45 @@
+<ul>
+
+  <div class="row lessons">
+    <div class="col-4 offset-4">
+      <li *ngFor="let lesson of lessons[k]; let i = index" class="buttons">
+        <button (click)="openModal(i)" type="button" class="btn btn-primary decorenone" data-toggle="modal"
+                data-target="#exampleModalScrollable">
+          Lesson{{i+1}}
+        </button>
+      </li>
+    </div>
+  </div>
+</ul>
+
+
+<div *ngIf="flag" class="modal fade" id="exampleModalScrollable">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-8 offset-2">
+            <audio [src]="currentLesson.srcAudio" controls="controls"></audio>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>{{ currentLesson.textEn }}</p>
+          </div>
+          <div class="col-6">
+            <p>{{ currentLesson.textRu }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

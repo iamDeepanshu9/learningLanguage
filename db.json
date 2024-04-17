@@ -1,0 +1,836 @@
+{
+  "lessons": [
+    [
+      {
+        "id": 1,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english1.1",
+        "textRu": "russian1.1"
+      },
+      {
+        "id": 2,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english1.2",
+        "textRu": "russian1.2"
+      },
+      {
+        "id": 3,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english1.3",
+        "textRu": "russian1.3"
+      },
+      {
+        "id": 4,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english1.4",
+        "textRu": "russian1.4"
+      },
+      {
+        "id": 5,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english1.5",
+        "textRu": "russian1.5"
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english2.1",
+        "textRu": "russian2.1"
+      },
+      {
+        "id": 7,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english2.2",
+        "textRu": "russian2.2"
+      },
+      {
+        "id": 8,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english2.3",
+        "textRu": "russian2.3"
+      },
+      {
+        "id": 9,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english2.4",
+        "textRu": "russian2.4"
+      },
+      {
+        "id": 10,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english2.5",
+        "textRu": "russian2.5"
+      }
+    ],
+    [
+      {
+        "id": 11,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english3.1",
+        "textRu": "russian3.1"
+      },
+      {
+        "id": 12,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english3.2",
+        "textRu": "russian3.2"
+      },
+      {
+        "id": 13,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english3.3",
+        "textRu": "russian3.3"
+      },
+      {
+        "id": 14,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english3.4",
+        "textRu": "russian3.4"
+      },
+      {
+        "id": 15,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english3.5",
+        "textRu": "russian3.5"
+      }
+    ],
+    [
+      {
+        "id": 16,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english4.1",
+        "textRu": "russian4.1"
+      },
+      {
+        "id": 17,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english4.2",
+        "textRu": "russian4.2"
+      },
+      {
+        "id": 18,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english4.3",
+        "textRu": "russian4.3"
+      },
+      {
+        "id": 19,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english4.4",
+        "textRu": "russian4.4"
+      },
+      {
+        "id": 20,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english4.5",
+        "textRu": "russian4.5"
+      }
+    ],
+    [
+      {
+        "id": 21,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english5.1",
+        "textRu": "russian5.1"
+      },
+      {
+        "id": 22,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english5.2",
+        "textRu": "russian5.2"
+      },
+      {
+        "id": 23,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english5.3",
+        "textRu": "russian5.3"
+      },
+      {
+        "id": 24,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english5.4",
+        "textRu": "russian5.4"
+      },
+      {
+        "id": 25,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english5.5",
+        "textRu": "russian5.5"
+      }
+    ],
+    [
+      {
+        "id": 26,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english6.1",
+        "textRu": "russian6.1"
+      },
+      {
+        "id": 27,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english6.2",
+        "textRu": "russian6.2"
+      },
+      {
+        "id": 28,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english6.3",
+        "textRu": "russian6.3"
+      },
+      {
+        "id": 29,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english6.4",
+        "textRu": "russian6.4"
+      },
+      {
+        "id": 30,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english6.5",
+        "textRu": "russian6.5"
+      }
+    ],
+    [
+      {
+        "id": 31,
+        "srcAudio": "assets/audio/level1-1.mp3",
+        "textEn": "english7.1",
+        "textRu": "russian7.1"
+      },
+      {
+        "id": 32,
+        "srcAudio": "assets/audio/level1-2.mp3",
+        "textEn": "english7.2",
+        "textRu": "russian7.2"
+      },
+      {
+        "id": 33,
+        "srcAudio": "assets/audio/level1-3.mp3",
+        "textEn": "english7.3",
+        "textRu": "russian7.3"
+      },
+      {
+        "id": 34,
+        "srcAudio": "assets/audio/level1-4.mp3",
+        "textEn": "english7.4",
+        "textRu": "russian7.4"
+      },
+      {
+        "id": 35,
+        "srcAudio": "assets/audio/level1-5.mp3",
+        "textEn": "english7.5",
+        "textRu": "russian7.5"
+      }
+    ]
+  ],
+  "tests": [
+    [
+      {
+        "question": "harc1.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc1.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc1.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc1.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc1.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc1.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc1.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc1.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc1.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc1.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc2.1",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.1"
+      },
+      {
+        "question": "harc2.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc2.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc2.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc2.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc2.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc2.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc2.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc2.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc2.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc3.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc3.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc3.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc3.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc3.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc3.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc3.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc3.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc3.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc3.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc4.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc4.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc4.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc4.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc4.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc4.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc4.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc4.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc4.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc4.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc5.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc5.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc5.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc5.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc5.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc5.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc5.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc5.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc5.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc5.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc6.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc6.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc6.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc6.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc6.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc6.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc6.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc6.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc6.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc6.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ],
+    [
+      {
+        "question": "harc7.1",
+        "answer1": "pat1.1",
+        "answer2": "pat1.2",
+        "answer3": "pat1.3",
+        "answer4": "pat1.4",
+        "rightAnswer": "pat1.1"
+      },
+      {
+        "question": "harc7.2",
+        "answer1": "pat2.1",
+        "answer2": "pat2.2",
+        "answer3": "pat2.3",
+        "answer4": "pat2.4",
+        "rightAnswer": "pat2.2"
+      },
+      {
+        "question": "harc7.3",
+        "answer1": "pat3.1",
+        "answer2": "pat3.2",
+        "answer3": "pat3.3",
+        "answer4": "pat3.4",
+        "rightAnswer": "pat3.3"
+      },
+      {
+        "question": "harc7.4",
+        "answer1": "pat4.1",
+        "answer2": "pat4.2",
+        "answer3": "pat4.3",
+        "answer4": "pat4.4",
+        "rightAnswer": "pat4.4"
+      },
+      {
+        "question": "harc7.5",
+        "answer1": "pat5.1",
+        "answer2": "pat5.2",
+        "answer3": "pat5.3",
+        "answer4": "pat5.4",
+        "rightAnswer": "pat5.1"
+      },
+      {
+        "question": "harc7.6",
+        "answer1": "pat6.1",
+        "answer2": "pat6.2",
+        "answer3": "pat6.3",
+        "answer4": "pat6.4",
+        "rightAnswer": "pat6.2"
+      },
+      {
+        "question": "harc7.7",
+        "answer1": "pat7.1",
+        "answer2": "pat7.2",
+        "answer3": "pat7.3",
+        "answer4": "pat7.4",
+        "rightAnswer": "pat7.3"
+      },
+      {
+        "question": "harc7.8",
+        "answer1": "pat8.1",
+        "answer2": "pat8.2",
+        "answer3": "pat8.3",
+        "answer4": "pat8.4",
+        "rightAnswer": "pat8.4"
+      },
+      {
+        "question": "harc7.9",
+        "answer1": "pat9.1",
+        "answer2": "pat9.2",
+        "answer3": "pat9.3",
+        "answer4": "pat9.4",
+        "rightAnswer": "pat9.1"
+      },
+      {
+        "question": "harc7.10",
+        "answer1": "pat10.1",
+        "answer2": "pat10.2",
+        "answer3": "pat10.3",
+        "answer4": "pat10.4",
+        "rightAnswer": "pat10.2"
+      }
+    ]
+  ],
+  "persons": [
+    {
+      "name": "Arman",
+      "email": "arman@gmail.com",
+      "pass": "qaz123",
+      "levels": {
+        "lt1": true,
+        "lt2": true,
+        "lt3": true,
+        "lt4": true,
+        "lt5": false,
+        "lt6": false,
+        "lt7": false
+      },
+      "id": 1
+    },
+    {
+      "name": "Gagik",
+      "email": "gagik@gmail.com",
+      "pass": "qaz123",
+      "levels": {
+        "lt1": true,
+        "lt2": true,
+        "lt3": true,
+        "lt4": false,
+        "lt5": false,
+        "lt6": false,
+        "lt7": false
+      },
+      "id": 2
+    }
+  ]
+}

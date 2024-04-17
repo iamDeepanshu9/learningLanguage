@@ -1,0 +1,59 @@
+<div *ngFor="let test of data" [hidden]="hiddenTest">
+  <div *ngFor="let t of test; let i=index">
+    <div class="row">
+      <div class="col-6 offset-3">
+        <form class="form-group" [formGroup]="form">
+          <ul class="list-group">
+            <fieldset [disabled]="disabledTest">
+              <li class="list-group-item question">
+                <h3>{{t.question}}</h3>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  <input class="form-check-input" type="radio" name="radioJan{{i}}" value="{{t.answer1}}"
+                         formControlName="radioJan{{i}}">
+                  {{t.answer1}}
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  <input class="form-check-input" type="radio" name="radioJan{{i}}" value="{{t.answer2}}"
+                         formControlName="radioJan{{i}}">
+                  {{t.answer2}}
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  <input class="form-check-input" type="radio" name="radioJan{{i}}" value="{{t.answer3}}"
+                         formControlName="radioJan{{i}}">
+                  {{t.answer3}}
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  <input class="form-check-input" type="radio" name="radioJan{{i}}" value="{{t.answer4}}"
+                         formControlName="radioJan{{i}}">
+                  {{t.answer4}}
+                </p>
+              </li>
+            </fieldset>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6 offset-3">
+    <button (click)="finish()" class="btn btn-success" [disabled]="disabledTest" [hidden]="hiddenTest">Finish</button>
+  </div>
+</div>
+
+<h3 *ngIf="numberOfCorrect" class="answers">Right answers {{counter}} of 10</h3>
+<h3 *ngIf="nextLevel" class="answers">next level unlocked</h3>
+<h3 *ngIf="tryAgain" class="answers">please try again</h3>

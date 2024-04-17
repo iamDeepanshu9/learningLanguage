@@ -1,0 +1,23 @@
+.list-group-item {
+  text-align: center;
+  color: white;
+  background-color: #71BF44;
+}
+
+.question {
+  background-color: #004B68;
+}
+
+.btn-success {
+  color: #71BF44;
+  background-color: #004B68;
+  border-color: #004B68;
+}
+
+.offset-3 {
+  margin-top: 15px;
+}
+
+.answers {
+  color: #71BF44;
+}

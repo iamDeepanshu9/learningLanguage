@@ -1,0 +1,25 @@
+<div *ngFor="let x of lessons; let i=index" class="bigDiv">
+
+  <div class="row">
+    <div class="col">
+      <ul>
+        <div class="lt1">
+          <a class="x" routerLink="/level{{i+1}}"
+             [queryParams]="{i: i}"
+          >
+            Level {{i+1}}
+          </a>
+        </div>
+        <div class="lt2">
+          <a
+            routerLink="/test{{i+1}}"
+            [queryParams]="{i: i}"
+          >
+            Test {{i+1}}
+          </a>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+</div>

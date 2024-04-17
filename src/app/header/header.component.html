@@ -1,0 +1,64 @@
+<div class="row navbar">
+
+  <div class="col-4">
+    <p class="learn">Learning Language</p>
+  </div>
+
+  <div class="col-4">
+
+    <!-- LogIn Form start -->
+    <form [formGroup]="form" (ngSubmit)="login()" *ngIf="signinFlag">
+      <input type="email" class="form-control" formControlName="email"
+             aria-describedby="emailHelp" placeholder="Enter email">
+
+      <input type="password" class="form-control" formControlName="pass"
+             placeholder="Password">
+
+      <button type="submit" class="btn btn-danger" [disabled]="this.form.invalid">SignIn</button>
+
+    </form>
+    <p *ngIf="incorrectlog" class="write">Incorrect login or password</p>
+    <!-- LogIn Form end -->
+
+
+    <!-- Registrate Form start -->
+    <form [formGroup]="form2" (ngSubmit)="registrate()" *ngIf="registrateFlag">
+      <div class="form-group">
+        <b>Name</b>
+        <input type="text" class="form-control" formControlName="name2"
+               aria-describedby="emailHelp" placeholder="Enter email">
+        <p class="write" *ngIf="form2.get('name2').invalid && form2.get('name2').touched">write name</p>
+      </div>
+
+      <div class="form-group">
+        <b>Email</b>
+        <input type="email" class="form-control" formControlName="email2"
+               aria-describedby="emailHelp" placeholder="Enter name">
+        <p class="write" *ngIf="form2.get('email2').invalid && form2.get('email2').touched">write email</p>
+      </div>
+
+      <div class="form-group">
+        <b>Password</b>
+        <input type="password" class="form-control" formControlName="pass2"
+               placeholder="Password">
+        <p class="write" *ngIf="form2.get('pass2').invalid && form2.get('pass2').touched">write name</p>
+      </div>
+
+      <button type="submit" class="btn btn-danger" [disabled]="this.form2.invalid">Registrate</button>
+    </form>
+
+    <!-- Registrate Form end -->
+
+
+
+
+  </div>
+
+
+  <div class="col-4">
+    <button class="btn btn-danger" *ngIf="reg" (click)="changeFlags()">Registrate</button>
+    <h2 *ngIf="online"> {{name2}} online</h2>
+    <button class="btn btn-primary" (click)="logout()" *ngIf="signoutFlag">SignOut</button>
+  </div>
+
+</div>

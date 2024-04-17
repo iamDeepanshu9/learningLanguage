@@ -1,0 +1,17 @@
+.lessons {
+  margin-top: 25px;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn-primary {
+  color: #71BF44;
+  background-color: #004B68;
+  border-color: #004B68;
+}

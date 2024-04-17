@@ -1,0 +1,33 @@
+.teal-text.text-accent-3 {
+  margin-left: 80px;
+}
+.navbar{
+  background-color: #004B68;
+}
+
+.repeatedUser{
+  color: red;
+}
+
+.learn {
+  color: #71BF44;
+  font-size: 30px;
+}
+
+.form-control {
+  background-color: #71BF44;
+}
+
+h2 {
+  color: #71BF44;
+}
+
+.btn-primary, .btn-danger {
+  background-color: #71BF44;
+  color: #004B68;
+  border-color: #71BF44;
+}
+
+.write {
+  color: red;
+}
